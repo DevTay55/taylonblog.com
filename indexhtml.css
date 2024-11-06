@@ -1,0 +1,39 @@
+#secoesinicio{
+
+    padding: 50px;
+    margin: 0%;
+    border: black;
+    box-shadow: white;
+    border-radius: 10px;
+    background-color: #227e6e;
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+.secoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.secoes:hover{
+    background-color: rgb(43, 123, 170);
+    transform: translateY(10px);
+
+}
+
+a:hover{ 
+    color: blue;
+}
